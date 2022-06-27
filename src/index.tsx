@@ -19,7 +19,7 @@ import { DemoPage, HomePage } from './pages';
         <React.StrictMode>
             <ReduxProvider store={configureAppStore(preloadedState)}>
                 <AppContextProvider>
-                    <DemoPage />
+                    <HomePage />
                 </AppContextProvider>
             </ReduxProvider>
         </React.StrictMode>
